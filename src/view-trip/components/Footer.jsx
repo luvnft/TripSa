@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaTikTok} from 'react-icons/fa'; // Import icons for social links
+import { FaTikTok } from 'react-icons/tiktok';
 
 function Footer() {
     return (
