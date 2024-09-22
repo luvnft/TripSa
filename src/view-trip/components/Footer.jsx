@@ -1,26 +1,21 @@
 import React from 'react';
-import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa'; // Import icons for social links
+import { FaTikTok} from 'react-icons/fa'; // Import icons for social links
 
 function Footer() {
     return (
-        <footer className="bg-gray-900 text-white py-6 mt-10 w-full">
-            <div className="max-w-screen-xl mx-auto text-center px-4">
-                <h2 className="text-xl font-bold mb-2">
-                    Created By Abhishek Yadav
+        <footer className="w-full py-6 mt-10 text-white bg-gray-900">
+            <div className="max-w-screen-xl px-4 mx-auto text-center">
+                <h2 className="mb-2 text-xl font-bold">
+                    Created By Arvrtise
                 </h2>
-                <p className="text-gray-400 mb-4">© 2024 All Rights Reserved</p>
+                <p className="mb-4 text-gray-400">© 2024 All Rights Reserved</p>
 
                 {/* Social Links */}
                 <div className="flex justify-center gap-6 mb-4">
-                    <a href="https://github.com/AbhishekY-17" target="_blank" rel="noopener noreferrer" className="text-white hover:text-gray-400 transition">
-                        <FaGithub size={24} />
+                    <a href="https://tiktok.com/travelw3w" target="_blank" rel="noopener noreferrer" className="text-white transition hover:text-gray-400">
+                        <FaTikTok size={24} />
                     </a>
-                    <a href="https://www.linkedin.com/in/abhishek-yadav-618825257/" target="_blank" rel="noopener noreferrer" className="text-white hover:text-gray-400 transition">
-                        <FaLinkedin size={24} />
-                    </a>
-                    <a href="https://twitter.com/yourtwitter" target="_blank" rel="noopener noreferrer" className="text-white hover:text-gray-400 transition">
-                        <FaTwitter size={24} />
-                    </a>
+                    {/* You can add other social links here */}
                 </div>
 
                 {/* Tagline */}
@@ -33,3 +28,4 @@ function Footer() {
 }
 
 export default Footer;
+
