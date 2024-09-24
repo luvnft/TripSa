@@ -1,5 +1,5 @@
 import React from 'react';
-import { TbBrandTikTok } from 'react-icons/tb'; // Use the correct TikTok icon import
+import { FaTiktok } from 'react-icons/fa'; // Use the correct TikTok icon import
 
 function Footer() {
     return (
@@ -18,7 +18,7 @@ function Footer() {
                         rel="noopener noreferrer" 
                         className="text-white transition hover:text-gray-400"
                     >
-                        <TbBrandTikTok size={24} /> {/* Updated icon */}
+                        <FaTiktok size={24} /> {/* Updated icon */}
                     </a>
                     {/* You can add other social links here */}
                 </div>
