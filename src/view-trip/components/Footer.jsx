@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaTiktok } from "react-icons/fa";
+import { TbBrandTikTok } from 'react-icons/tb'; // Use the correct TikTok icon import
 
 function Footer() {
     return (
@@ -12,8 +12,13 @@ function Footer() {
 
                 {/* Social Links */}
                 <div className="flex justify-center gap-6 mb-4">
-                    <a href="https://tiktok.com/travelw3w" target="_blank" rel="noopener noreferrer" className="text-white transition hover:text-gray-400">
-                        <FaTiktok size={24} />
+                    <a 
+                        href="https://tiktok.com/@travelw3w" // Make sure the URL is correct
+                        target="_blank" 
+                        rel="noopener noreferrer" 
+                        className="text-white transition hover:text-gray-400"
+                    >
+                        <TbBrandTikTok size={24} /> {/* Updated icon */}
                     </a>
                     {/* You can add other social links here */}
                 </div>
@@ -28,4 +33,3 @@ function Footer() {
 }
 
 export default Footer;
-
