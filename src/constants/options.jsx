@@ -2,21 +2,21 @@ export const SelectTravelesList = [
     {
         id:1,
         title:'Just Me',
-        desc:'A sole travels in exploration',
+        desc:'I\’m a lone wolf',
         icon:'✈',
         people:'1'
     },
     {
         id:2,
         title:'A couple',
-        desc:'Two travelels in tandem',
+        desc:'Two travelers only',
         icon:'🥂',
         people:'2'
     },
     {
         id:3,
         title:'Family',
-        desc:'A group of fun loving adv',
+        desc:'La Familia',
         icon:'🏡',
         people:'3 to 5 people'
     },
@@ -33,7 +33,7 @@ export const SelectBudgetOptions=[
     {
         id:1,
         title:'Cheap',
-        desc:'Stay conscious of cost',
+        desc:'Keep your budget in check',
         icon:'💵',
     },
     {
@@ -45,7 +45,7 @@ export const SelectBudgetOptions=[
     {
         id:3,
         title:'Luxury',
-        desc:'Dont worry about cost',
+        desc:'Money ain\'t a thing',
         icon:'💸',
     },
 ]
