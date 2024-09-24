@@ -12,7 +12,15 @@ function Hero() {
       </h1>
       <p 
       className='mt-4 text-xl text-[#2C3E50] text-center'
-      >Your personal travel BFF—crafting custom trips based on what you love and your budget. Let’s make it happen!
+      >Your personal travel BFF—crafting custom trips based on what you love and your budget. Follow us on TikTok <a 
+      href="https://tiktok.com/@travelw3w" 
+      target="_blank" 
+      rel="noopener noreferrer" 
+      style={{ display: 'flex', alignItems: 'center' }} // Optional: styles for better alignment
+  >
+      <FaTiktok style={{ marginRight: '8px' }} /> {/* Adds space between icon and text */}
+      @TravelW3W
+  </a>. Let’s make it happen!
       </p>
       <Link to={'/create-trip'}>
       <Button>Explore for Free</Button>
