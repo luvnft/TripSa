@@ -11,15 +11,7 @@ function Hero() {
       </h1>
       <p className='mt-4 text-xl text-[#2C3E50] text-center'>
         Your personal travel BFF—crafting custom trips based on what you love and your budget. 
-        Follow us on TikTok 
-        <a 
-          href="https://tiktok.com/@travelw3w" 
-          target="_blank" 
-          rel="noopener noreferrer" 
-          className="flex items-center mt-2"
-        >
-          @TravelW3W
-        </a>. Let’s make it happen!
+        Follow us on TikTok <a href="https://tiktok.com/@travelw3w" target="_blank" rel="noopener noreferrer">@TravelW3W</a>. Let’s make it happen!
       </p>
       <Link to={'/create-trip'}>
         <Button>Explore for Free</Button>
