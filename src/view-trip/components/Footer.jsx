@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaTikTok } from 'react-icons/tiktok';
+import { TiSocialTiktok } from 'react-icons/ti';
 
 function Footer() {
     return (
@@ -13,7 +13,7 @@ function Footer() {
                 {/* Social Links */}
                 <div className="flex justify-center gap-6 mb-4">
                     <a href="https://tiktok.com/travelw3w" target="_blank" rel="noopener noreferrer" className="text-white transition hover:text-gray-400">
-                        <FaTikTok size={24} />
+                        <TiSocialTiktok size={24} />
                     </a>
                     {/* You can add other social links here */}
                 </div>
